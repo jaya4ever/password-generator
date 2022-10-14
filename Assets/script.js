@@ -36,7 +36,7 @@ function checkUpperCase (){
   var upperCaseRequired = prompt("Press ok if you want upperCase in your passwod");
 
   if(upperCaseRequired === "null" || upperCaseRequired ===" "){
-    alert("please say ok ");
+    alert("please say ok or Yes");
     checkUpperCase();
   }else if(upperCaseRequired === "ok" || upperCaseRequired === "Yes"){
      upperCaseRequired = true;
@@ -47,6 +47,27 @@ function checkUpperCase (){
     checkUpperCase();
   }
 }
+
+function checkLowerCase (){
+  var lowerCaseRequired = prompt("Press ok if you want lowercase in your password");
+  if(lowerCaseRequired === "ok" || lowerCaseRequired === "No" ){
+     lowerCaseRequired = true;
+     return lowerCaseRequired;
+  }else {
+    alert("follow the next screen");
+    checkLowerCase();
+  }
+}
+function generatePassword(){
+
+checkLength();
+
+checkUpperCase();
+
+
+checkLowerCase();
+}
+
 
 
 
