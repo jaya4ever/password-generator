@@ -6,6 +6,7 @@ var upperCaseP = "ABCDEFGHIJKLMNOPQUSTUVWXYZ";
 var lowerCaseP= "abcdefghijklmnopqustuvwxyz";
 var numbersP = "012345678";
 var specialCharP= "!@#$%^&*()_-+={}[];:'`~<,>.?/|";
+var passwordCriteria = [""];
 
 
 // Write password to the #password input
