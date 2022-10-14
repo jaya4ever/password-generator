@@ -13,16 +13,15 @@ window.load = alert("Please start to generate your secured password");
 
 // defining variables to check the password criteria needed
 //var passwordLengthRequired;
-var upperCaseRequired;
-var lowerCaseRequired;
-var numbersRequired;
-var specialCharRequired;
+//var upperCaseRequired;
+//var lowerCaseRequired;
+//var numbersRequired;
+//var specialCharRequired;
 
 // creating function to check the password length
-
-function checkLength(){
+ function checkLength(){
   var passwordLengthRequired = prompt("choose a length of at least 8 characters and no more than 128 characters ");
-  if(passwordLengthRequired > 8 || passwordLengthRequired < 128){
+  if(passwordLengthRequired <= 8 || passwordLengthRequired >= 128){
     alert("enter the length to meet the password critera");
     checkLength();
   }else{
@@ -31,6 +30,14 @@ function checkLength(){
   }
   return passwordLengthRequired;
 }
+
+//creating upperCase function to include in the password
+//function checkUpperCase (){
+  //var upperCaseRequired = prompt("Press ok if you want upperCase in your passwod");
+  //if(upperCaseRequired = )
+
+
+
 
 
 // Write password to the #password input
