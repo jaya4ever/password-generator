@@ -11,6 +11,13 @@ var passwordCriteria = [""];
 // this screen will pop up when browser will open
 window.load = alert("Please start to generate your secured password");
 
+// defining variables to check the password criteria needed
+var passwordLengthRequired;
+var upperCaseRequired;
+var lowerCaseRequired;
+var numbersRequired;
+var specialCharRequired;
+
 
 // Write password to the #password input
 function writePassword() {
