@@ -6,7 +6,7 @@ var upperCaseP = "ABCDEFGHIJKLMNOPQUSTUVWXYZ";
 var lowerCaseP= "abcdefghijklmnopqustuvwxyz";
 var numbersP = "012345678";
 var specialCharP= ":'`~<,>.?/| $%^&*()_-+= ! @ # {}[]";
-var passwordCriteria = [""];
+//var passwordCriteria = [""];
 
 // this screen will pop up when browser will open
 window.load = alert("Please start to generate your secured password");
@@ -58,7 +58,7 @@ function checkLowerCase (){
     checkLowerCase();
   }
 }
-function generatePassword(){
+/*function generatePassword(){
 
 checkLength();
 
@@ -66,7 +66,7 @@ checkUpperCase();
 
 
 checkLowerCase();
-}
+}*/
 
 
 
