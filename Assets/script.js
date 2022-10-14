@@ -9,7 +9,7 @@ var specialCharP= "!@#$%^&*()_-+={}[];:'`~<,>.?/|";
 var passwordCriteria = [""];
 
 // this screen will pop up when browser will open
-windows.load = alert("Please start to generate your secured password");
+window.load = alert("Please start to generate your secured password");
 
 
 // Write password to the #password input
