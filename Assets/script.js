@@ -5,18 +5,32 @@ var generateBtn = document.querySelector("#generate");
 var upperCaseP = "ABCDEFGHIJKLMNOPQUSTUVWXYZ";
 var lowerCaseP= "abcdefghijklmnopqustuvwxyz";
 var numbersP = "012345678";
-var specialCharP= "!@#$%^&*()_-+={}[];:'`~<,>.?/|";
+var specialCharP= ":'`~<,>.?/| $%^&*()_-+= ! @ # {}[]";
 var passwordCriteria = [""];
 
 // this screen will pop up when browser will open
 window.load = alert("Please start to generate your secured password");
 
 // defining variables to check the password criteria needed
-var passwordLengthRequired;
+//var passwordLengthRequired;
 var upperCaseRequired;
 var lowerCaseRequired;
 var numbersRequired;
 var specialCharRequired;
+
+// creating function to check the password length
+
+function checkLength(){
+  var passwordLengthRequired = prompt("choose a length of at least 8 characters and no more than 128 characters ");
+  if(passwordLengthRequired > 8 || passwordLengthRequired < 128){
+    alert("enter the length to meet the password critera");
+    checkLength();
+  }else{
+    alert("follow the next screen");
+    checkLength();
+  }
+  return passwordLengthRequired;
+}
 
 
 // Write password to the #password input
