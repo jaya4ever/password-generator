@@ -32,9 +32,21 @@ window.load = alert("Please start to generate your secured password");
 }
 
 //creating upperCase function to include in the password
-//function checkUpperCase (){
-  //var upperCaseRequired = prompt("Press ok if you want upperCase in your passwod");
-  //if(upperCaseRequired = )
+function checkUpperCase (){
+  var upperCaseRequired = prompt("Press ok if you want upperCase in your passwod");
+
+  if(upperCaseRequired === "null" || upperCaseRequired ===" "){
+    alert("please say ok ");
+    checkUpperCase();
+  }else if(upperCaseRequired === "ok" || upperCaseRequired === "Yes"){
+     upperCaseRequired = true;
+     return upperCaseRequired;
+
+  }else {
+    alert("follow the next screen");
+    checkUpperCase();
+  }
+}
 
 
 
