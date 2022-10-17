@@ -41,11 +41,36 @@ var numbersForPassword = confirm("Your password will have numbers");
 //defining special character varible to use in password
 var specialCharForPassword = confirm("Your password will have special characters");
 
-//alerting to use the true condition
+//using if statement to alert to use the true condition
 if (lowerCaseForPassword == false && upperCaseForPassword ==false && numbersForPassword == false && specialCharForPassword == false) {
   alert("Please select at least one character type.");
     return(undefined);
+};
+
+
+// including all variables to use it in the password
+if (lowerCaseForPassword) {
+  passwordCriteria += lowerCaseP;
 }
+
+if (upperCaseForPassword) {
+  passwordCriteria += upperCaseP;
+}
+
+if (numbersForPassword) {
+  passwordCriteria += numbersP;
+}
+
+if (specialCharForPassword) {
+  passwordCriteria += specialCharP;
+}
+
+//else {
+//  possibleCharacters += lowercaseCharacters + uppercaseCharacters + numberOfCharacters + specialCharacters;
+
+alert(passwordCriteria);
+
+
 }
 
 
