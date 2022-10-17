@@ -38,6 +38,8 @@ var upperCaseForPassword = confirm("Your Password will have upperCase");
 //defining number variable to use in password
 var numbersForPassword = confirm("Your password will have numbers");
 
+//defining special character varible to use in password
+var specialCharForPassword = confirm("Your password will have special characters");
 }
 
 
