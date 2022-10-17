@@ -9,7 +9,11 @@ var upperCaseP = "ABCDEFGHIJKLMNOPQUSTUVWXYZ";
 var lowerCaseP= "abcdefghijklmnopqustuvwxyz";
 var numbersP = "012345678";
 var specialCharP= ":'`~<,>.?/| $%^&*()_-+= ! @ # {}[]";
-var passwordCriteria = [""];
+var passwordCriteria = "";
+
+// validating the input
+
+var numberOfCharacters = prompt("How many characters do you want in your password? Please Choose between 8 to 128 characters.");
 
 
 
