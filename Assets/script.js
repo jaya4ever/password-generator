@@ -3,13 +3,17 @@ var generateBtn = document.querySelector("#generate");
 
 window.onload = alert("Please click generate password to start");
 
-// Defining variables to use in the password
+// function to generate password and defining variables
+function generatePassword(){
 var upperCaseP = "ABCDEFGHIJKLMNOPQUSTUVWXYZ";
 var lowerCaseP= "abcdefghijklmnopqustuvwxyz";
 var numbersP = "012345678";
 var specialCharP= ":'`~<,>.?/| $%^&*()_-+= ! @ # {}[]";
 var passwordCriteria = [""];
 
+
+
+}
 
 
 
