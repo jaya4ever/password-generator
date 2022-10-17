@@ -21,6 +21,13 @@ if (!(numberOfCharacters.length < 4 && numberOfCharacters.length > 0)) {
  return(undefined);    
 }
 
+// convert to a integer 
+numberOfCharacters = Number(numberOfCharacters);
+
+if (!(numberOfCharacters > 8 && numberOfCharacters <128)){
+  alert("Please enter a value betwee 8 and 128 for the number of characters in the password");
+  return(undefined);
+}
 
 }
 
