@@ -70,10 +70,17 @@ if (specialCharForPassword) {
 
 alert(passwordCriteria);
 
+// picking random numbers for the password
+  var result = "";
+  for (let i = 0; i < numberOfCharacters; i++) {
+    var randomForPassword =[Math.floor(Math.random() * passwordCriteria.length)];
+
+    result +=passwordCriteria.charAt(randomForPassword);
 
 }
+return result;
 
-
+};
 
 
 
