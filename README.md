@@ -6,7 +6,7 @@
 [GitHub](https://github.com/jaya4ever/password-generator "GitHub Repository")
 
 ### This is the GitHub Page URL of my current assignment which is password-generator.
-[GitHub](https://jaya4ever.github.io/password-generator/  "GitHub Page")
+[GitHubPage](https://jaya4ever.github.io/password-generator/  "GitHub Page")
 
 
 
