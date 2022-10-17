@@ -35,6 +35,9 @@ var lowerCaseForPassword = confirm("Your password will have lowerCase");
 //defining uppercase variables to use in password
 var upperCaseForPassword = confirm("Your Password will have upperCase");
 
+//defining number variable to use in password
+var numbersForPassword = confirm("Your password will have numbers");
+
 }
 
 
