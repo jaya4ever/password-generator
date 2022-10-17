@@ -2,6 +2,12 @@
 
 ## In this Module Challenge I had given the starter code to generate password. I have used JavaScript to finish this assignment. I have used function to generate password. In that function I have define variables asked in the challenge. Variables are upperCase, lowerCase, numbers, special Characters. In the starting I have used prompt to enter the required password criteria. If the user is entering the invalid number then the user has to start it all over again.If the user entered the asked criteria then it will take the user to all screen telling the user that your password will have upperCase, lowerCase, number and Special Character.
 
+### This is the URL of my current repository which I named Password Generator. password-generator is the name of my GitHub repository.
+[GitHub](https://github.com/jaya4ever/password-generator "GitHub Repository")
+
+### This is the GitHub Page URL of my current assignment which is password-generator.
+[GitHub](https://jaya4ever.github.io/password-generator/  "GitHub Page")
+
 
 
 ## User Story
