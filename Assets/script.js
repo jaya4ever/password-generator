@@ -18,7 +18,7 @@ var passwordCriteria = [""];
 
 //Function used to determine the length of the password
 
-function passwordLCheck(){
+/*function passwordLCheck(){
   //passLRequired = window.prompt("Choose how many characters long you'd like your password to be (between 8-128 characters): ");
 
     if (passLRequired <= 8 || passLRequired >= 128 || isNaN(passLRequired)){
@@ -175,7 +175,7 @@ function resetText(){
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-};
+};*/
 
 
 
