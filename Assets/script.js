@@ -14,7 +14,12 @@ var passwordCriteria = "";
 // validating the input
 
 var numberOfCharacters = prompt("How many characters do you want in your password? Please Choose between 8 to 128 characters.");
-
+  
+// check we have correct number of characters
+if (!(numberOfCharacters.length < 4 && numberOfCharacters.length > 0)) {
+  alert("Password length must be a number between 8-128 characters. Please try again.");
+ return(undefined);    
+}
 
 
 }
