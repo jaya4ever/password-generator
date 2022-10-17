@@ -7,14 +7,13 @@ function generatePassword() {
   var upperCaseP = "ABCDEFGHIJKLMNOPQUSTUVWXYZ";
   var lowerCaseP = "abcdefghijklmnopqustuvwxyz";
   var numbersP = "012345678";
-  var specialCharP = ":'`~<,>.?/| $%^&*()_-+= ! @ # {}[]";
+  var specialCharP = ":'`~<,>.?/|%^&*()_-+=!@#{}[]";
   var passwordCriteria = "";
 
   // validating the input
-
   var numberOfCharacters = prompt("How many characters do you want in your password? Please Choose between 8 to 128 characters.");
 
-  // check we have correct number of characters
+  // check we have correct number of characters 1 character for 8, 3 for 128
   if (!(numberOfCharacters.length < 4 && numberOfCharacters.length > 0)) {
     alert("Password length must be a number between 8-128 characters. Please try again.");
     return (undefined);
@@ -23,8 +22,9 @@ function generatePassword() {
   // convert to a integer 
   numberOfCharacters = Number(numberOfCharacters);
 
-  if (!(numberOfCharacters > 8 && numberOfCharacters < 128)) {
-    alert("start over please and enter a value betwee 8 and 128 for the number of characters in the password");
+  // Between 8 and 128
+  if (!(numberOfCharacters > 7 && numberOfCharacters < 129)) {
+    alert("start over please and enter a value between 8 and 128 for the number of characters in the password");
     return (undefined);
   }
 
@@ -67,7 +67,7 @@ function generatePassword() {
   //else {
   //  possibleCharacters += lowercaseCharacters + uppercaseCharacters + numberOfCharacters + specialCharacters;
 
-  alert(passwordCriteria);
+  //alert(passwordCriteria);
 
   // picking random numbers for the password
   var result = "";
