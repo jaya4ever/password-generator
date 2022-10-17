@@ -40,8 +40,13 @@ var numbersForPassword = confirm("Your password will have numbers");
 
 //defining special character varible to use in password
 var specialCharForPassword = confirm("Your password will have special characters");
-}
 
+//alerting to use the true condition
+if (lowerCaseForPassword == false && upperCaseForPassword ==false && numbersForPassword == false && specialCharForPassword == false) {
+  alert("Please select at least one character type.");
+    return(undefined);
+}
+}
 
 
 
