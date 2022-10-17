@@ -32,6 +32,9 @@ if (!(numberOfCharacters > 8 && numberOfCharacters <128)){
 //defining lowercase variables to use in password
 var lowerCaseForPassword = confirm("Your password will have lowerCase");
 
+//defining uppercase variables to use in password
+var upperCaseForPassword = confirm("Your Password will have upperCase");
+
 }
 
 
