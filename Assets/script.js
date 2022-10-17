@@ -25,7 +25,7 @@ function generatePassword() {
   numberOfCharacters = Number(numberOfCharacters);
 
   if (!(numberOfCharacters > 8 && numberOfCharacters < 128)) {
-    alert("Please enter a value betwee 8 and 128 for the number of characters in the password");
+    alert("start over please and enter a value betwee 8 and 128 for the number of characters in the password");
     return (undefined);
   }
 
